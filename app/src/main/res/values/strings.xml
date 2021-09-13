@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Morningwalk</string>
+    <string name="google_map_api_key">AIzaSyAOVJ1668NgSchNEmT0KsPY53e_rGMkSis</string>
 </resources>
