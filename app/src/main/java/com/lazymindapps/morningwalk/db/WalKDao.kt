@@ -15,16 +15,16 @@ interface WalKDao {
 
 
     @Query("Select * from walk_table ORDER BY timeStamp desc")
-    fun getAllRunSortedByDate():LiveData<List<Walk>>
+    fun getAllWalkSortedByDate():LiveData<List<Walk>>
 
     @Query("Select * from walk_table ORDER BY timeInMIllis desc")
-    fun getAllRunSortedByTimeInMillis():LiveData<List<Walk>>
+    fun getAllWalkSortedByTimeInMillis():LiveData<List<Walk>>
 
     @Query("Select * from walk_table ORDER BY calaryBurn desc")
-    fun getAllRunSortedByCaloryBurn():LiveData<List<Walk>>
+    fun getAllWalkSortedByCaloryBurn():LiveData<List<Walk>>
 
     @Query("Select * from walk_table ORDER BY avgSpeedInKm desc")
-    fun getAllRunSortedByAverageSpeed():LiveData<List<Walk>>
+    fun getAllWalkSortedByAverageSpeed():LiveData<List<Walk>>
 
 
     @Query("Select SUM(timeInMIllis) from walk_table")
