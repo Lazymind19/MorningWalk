@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/drawable/buttom_nav_selector.xml" value="0.20833333333333334" />
         <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/layout/activity_main.xml" value="0.13949275362318841" />
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/layout/fragment_setting.xml" value="0.15942028985507245" />
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/layout/fragment_setup.xml" value="0.15942028985507245" />
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/layout/fragment_stat.xml" value="0.15942028985507245" />
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/layout/fragment_traking.xml" value="0.15942028985507245" />
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/layout/fragment_walk.xml" value="0.15942028985507245" />
+        <entry key="..\:/All flutter projects/Morningwalk/app/src/main/res/menu/bottom_menu.xml" value="0.1921875" />
       </map>
     </option>
   </component>

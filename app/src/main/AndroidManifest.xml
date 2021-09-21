@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Morningwalk">
+        android:theme="@style/Theme.Morningwalk.NoActionBar">
         <activity
             android:launchMode="singleTask"
             android:name=".MainActivity"

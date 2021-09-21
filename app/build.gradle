@@ -32,10 +32,14 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding true
+    }
+
 }
 
 dependencies {
-   def room_version = "2.3.0"
+    def room_version = "2.3.0"
    def lifecycle_version = "2.4.0-alpha03"
    def nav_version = "2.3.5"
 
@@ -80,6 +84,8 @@ dependencies {
     //google map
     implementation 'com.google.android.gms:play-services-location:18.0.0'
    // implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+
 
     //easy permission
     implementation 'pub.devrel:easypermissions:3.0.0'

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/setupFragment">
+
+    <fragment
+        android:id="@+id/walkFragment"
+        android:name="com.lazymindapps.morningwalk.ui.WalkFragment"
+        android:label="fragment_walk"
+        tools:layout="@layout/fragment_walk" >
+        <action
+            android:id="@+id/action_walkFragment_to_trakingFragment"
+            app:destination="@id/trakingFragment" />
+        <action
+            android:id="@+id/action_walkFragment_to_trakingFragment2"
+            app:destination="@id/trakingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.lazymindapps.morningwalk.ui.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/setupFragment"
+        android:name="com.lazymindapps.morningwalk.ui.SetupFragment"
+        android:label="fragment_setup"
+        tools:layout="@layout/fragment_setup" >
+        <action
+            android:id="@+id/action_setupFragment_to_walkFragment"
+            app:destination="@id/walkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statFragment"
+        android:name="com.lazymindapps.morningwalk.ui.StatFragment"
+        android:label="fragment_stat"
+        tools:layout="@layout/fragment_stat" />
+    <fragment
+        android:id="@+id/trakingFragment"
+        android:name="com.lazymindapps.morningwalk.ui.TrakingFragment"
+        android:label="fragment_traking"
+        tools:layout="@layout/fragment_traking" >
+        <action
+            android:id="@+id/action_trakingFragment_to_walkFragment"
+            app:destination="@id/walkFragment" />
+    </fragment>
+</navigation>
