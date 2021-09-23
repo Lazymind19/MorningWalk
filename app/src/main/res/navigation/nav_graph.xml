@@ -5,6 +5,10 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/setupFragment">
 
+    <action android:id="@+id/action_global_fragment"
+        app:destination="@+id/trakingFragment"
+        app:launchSingleTop="true"/>
+
     <fragment
         android:id="@+id/walkFragment"
         android:name="com.lazymindapps.morningwalk.ui.WalkFragment"
